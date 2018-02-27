@@ -1,0 +1,74 @@
+body {
+    background-image: url(./assets/images/dimonds.jpg);
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    padding: 25px;
+    color: rgb(64, 3, 104);
+    text-align: center;
+    /* border: 5px solid white; */
+}
+#gem1 {
+   height: 60px;
+   width: 60px;
+   border: 5px solid white;
+}
+#gem2 {
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+}
+#gem3 {
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+}
+#gem4{
+   height: 60px;
+   width: 60px;
+   border: 5px solid white; 
+}
+li {
+    display: inline-block;
+}
+.random {
+    border: 5px solid white;
+    height: 100px;
+    width: 300px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 25px;
+    /* float: left; */
+    margin-bottom: 40px;
+
+}
+.rules {
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 25px;
+}
+.score {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    padding: 20px 25px;
+    border: 5px solid white;
+    height: 150px;
+    width: 300px;
+    float: right;
+}
+.total-score {
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    padding: 20px 25px;
+    border: 5px solid white;
+    height: 150px;
+    width: 300px;
+    /* float: right; */
+}
+.gem-btn {
+    float: right;
+}
