@@ -8,7 +8,7 @@ h1 {
     padding: 25px;
     color: rgb(64, 3, 104);
     text-align: center;
-    /* border: 5px solid white; */
+    
 }
 #gem1 {
    height: 60px;
@@ -38,10 +38,9 @@ li {
     height: 100px;
     width: 300px;
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     padding: 20px 25px;
-    /* float: left; */
     margin-bottom: 40px;
 
 }
@@ -56,19 +55,39 @@ li {
     font-size: 40px;
     padding: 20px 25px;
     border: 5px solid white;
-    height: 150px;
+    height: 200px;
     width: 300px;
-    float: right;
+    
 }
 .total-score {
     font-family: 'Great Vibes', cursive;
     font-size: 25px;
     padding: 20px 25px;
     border: 5px solid white;
-    height: 150px;
+    height: 200px;
     width: 300px;
-    /* float: right; */
+    
 }
 .gem-btn {
+    border: 5px solid white;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+.second {
     float: right;
+    width: 550px;
+}
+.first {
+    width: 550px;
+    float: left
 }

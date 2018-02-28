@@ -14,8 +14,8 @@
 
 <body>
 <h1>Crystals Collector Game</h1>
-<section class="container">
-    <section calss="row">
+<section class="container clearfix">
+    
         <div class="rules">
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -27,31 +27,34 @@
                     
                 </div>
         </div>
+    <section calss="row">
 
-        <div class="random"></div> 
+            <section class="col-md-6 first">
 
-        <div class="gem-btn">
-                <ul>
-                    <li class="gem"><image id="gem1" src="./assets/images/gem2.png"  alt="gem1"></image></li>
-                    <li class="gem"><image id="gem2" src="./assets/images/gem4.png"  alt="gem2"></image></li>
-                    <li class="gem"><image id="gem3" src="./assets/images/gem3.png"  alt="gem3"></image></li>
-                    <li class="gem"><image id="gem4" src="./assets/images/gem5.png"  alt="gem4"></image></li>
-                </ul> 
-        </div>
+                <div class="random"></div> 
+                <div class="total-score">Total Score:</div>
 
-        <div class="total-score">Total Score:</div>
+            </section>
 
-        <div class="score">
-                <h2><span id="status"></span></h2>
-                <h2>Wins: <span id="win"></span></h2>
-                <h2>Losses: <span id="loss"></span> </h2>
-        </div>
+            <section class="col-md-6 second">
 
+                <div class="gem-btn">
+                        <ul>
+                            <li class="gem"><image id="gem1" src="./assets/images/gem2.png"  alt="gem1"></image></li>
+                            <li class="gem"><image id="gem2" src="./assets/images/gem4.png"  alt="gem2"></image></li>
+                            <li class="gem"><image id="gem3" src="./assets/images/gem3.png"  alt="gem3"></image></li>
+                            <li class="gem"><image id="gem4" src="./assets/images/gem5.png"  alt="gem4"></image></li>
+                        </ul> 
+                </div>        
+
+                <div class="score">
+                        <h2><span id="status"></span></h2>
+                        <h2>Wins: <span id="win"></span></h2>
+                        <h2>Losses: <span id="loss"></span> </h2>
+                </div>
+
+            </section>
        
-        
-        
-               
-        
     </section>
 </section>
 

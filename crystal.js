@@ -50,6 +50,7 @@ function checkWinLose() {
         wins++;
         $('#win').text(wins);
         $('#status').text("You Won!!!");
+        count = 0;
         newValues();
         startGame();
     }
@@ -57,6 +58,7 @@ function checkWinLose() {
         losses++;
         $('#loss').text(losses);
         $('#status').text("You lost!!!");
+        count = 0;
         newValues();
         startGame();
     }
