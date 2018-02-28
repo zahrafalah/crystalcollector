@@ -5,7 +5,7 @@ $(document).ready(function() {
     var losses = 0;
     var values;
     var random;
-    
+    startGame();
 
 function newValues () {
         values = Array.from({length: 4}, () => Math.floor(Math.random() * 12) + 1);
@@ -18,31 +18,31 @@ function startGame() {
       
       random = Math.floor(Math.random() * 102) + 18;
       $(".random").text("Take this # : " + random);
-
-      $('#gem1').on('click', function(){
-        count = count + values[0];      
-      $('.total-score').text("Total Score: " + count);
-      checkWinLose();
-      });
-     
-      $('#gem2').on('click', function(){
-        count = count + values[1];      
-      $('.total-score').text("Total Score: " + count);
-      checkWinLose();
-      });
-
-      $('#gem3').on('click', function(){
-        count = count + values[2];      
-      $('.total-score').text("Total Score: " + count);
-      checkWinLose();
-      });
-
-      $('#gem4').on('click', function(){
-        count = count + values[3]; 
-      $('.total-score').text("Total Score: " + count);
-      checkWinLose();
-      });
 }
+
+        $('#gem1').on('click', function(){
+            count = count + values[0];      
+        $('.total-score').text("Total Score: " + count);
+        checkWinLose();
+        });
+        
+        $('#gem2').on('click', function(){
+            count = count + values[1];      
+        $('.total-score').text("Total Score: " + count);
+        checkWinLose();
+        });
+
+        $('#gem3').on('click', function(){
+            count = count + values[2];      
+        $('.total-score').text("Total Score: " + count);
+        checkWinLose();
+        });
+
+        $('#gem4').on('click', function(){
+            count = count + values[3]; 
+        $('.total-score').text("Total Score: " + count);
+        checkWinLose();
+        });
  
 function checkWinLose() {
     // console.log(count, random);
@@ -64,7 +64,7 @@ function checkWinLose() {
     }
 }
 newValues();
-startGame();
+
 });
 
     
